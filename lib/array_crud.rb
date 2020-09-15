@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  $arr = [1 , 2 , "Hello World"]
+  $arr = [1 , 2 , "Hello World" ,3]
 end
 
 def add_element_to_end_of_array(array, element)
