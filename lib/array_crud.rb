@@ -1,17 +1,17 @@
 def create_an_empty_array
-  
+  arr = Array.new
 end
 
 def create_an_array
-  
+  $arr = [1 , 2 , "Hello World"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  $arr << "End"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  $arr.unshift("front")
 end
 
 def remove_element_from_end_of_array(array)
